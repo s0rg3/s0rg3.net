@@ -16,10 +16,13 @@ header {
 
 header h1 {
   color: #20c20e;
-  font-family: 'glitchgoblin';
+  font-family: 'glitchgoblin', sans-serif;
   text-align: center;
+  font-size: 3em;
 }
 
-h1 {
+main h1 {
   color: #20c20e;
+  font-family: 'glitchgoblin', sans-serif;
+  text-align: center;
 }
