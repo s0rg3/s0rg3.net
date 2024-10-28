@@ -1,7 +1,10 @@
 
 
 
-
+@font-face {
+  font-family: glitchgoblin;
+  src:url(fonts/GlitchGoblin.ttf);
+}
 
 body {
   background-color: #000;
@@ -13,6 +16,7 @@ header {
 
 header h1 {
   color: #20c20e;
+  font-family: glitchgoblin;
   text-align: center;
 }
 
