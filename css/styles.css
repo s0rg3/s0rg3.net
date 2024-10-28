@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'glitchgoblin';
-  src: url(fonts/GlitchGoblin.ttf);
+  src: url(fonts/GlitchGoblin.ttf) format('truetype');
 }
 
 body {
