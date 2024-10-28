@@ -17,14 +17,14 @@ header {
 header h1 {
   color: #20c20e;
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
 }
 
 main {
   font-family: 'glitchgoblin', sans-serif;
 }
 
-main h1 {
+main h2 {
   color: #20c20e;
   text-align: center;
 }
