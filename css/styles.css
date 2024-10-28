@@ -2,8 +2,8 @@
 
 
 @font-face {
-  font-family: glitchgoblin;
-  src:url(fonts/GlitchGoblin.ttf);
+  font-family: 'glitchgoblin';
+  src: url(fonts/GlitchGoblin.ttf);
 }
 
 body {
@@ -16,7 +16,7 @@ header {
 
 header h1 {
   color: #20c20e;
-  font-family: glitchgoblin;
+  font-family: 'glitchgoblin';
   text-align: center;
 }
 
