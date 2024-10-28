@@ -11,18 +11,20 @@ body {
 }
 
 header {
-
+  font-family: 'glitchgoblin', sans-serif;
 }
 
 header h1 {
   color: #20c20e;
-  font-family: 'glitchgoblin', sans-serif;
   text-align: center;
   font-size: 3em;
 }
 
+main {
+  font-family: 'glitchgoblin', sans-serif;
+}
+
 main h1 {
   color: #20c20e;
-  font-family: 'glitchgoblin', sans-serif;
   text-align: center;
 }
