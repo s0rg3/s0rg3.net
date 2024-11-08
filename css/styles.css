@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 @font-face {
@@ -8,15 +9,35 @@
   src: url(fonts/GlitchGoblin.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'hacknerd';
+  src: url(fonts/HackNerdFont-Regular.ttf) format('truetype')
+}
+
 body {
   background-color: #000;
   color: #20c20e;
   font-family: 'glitchgoblin', sans-serif;
+  max-width: 1500px;
+  margin: auto;
+}
+
+p {
+  font-family: 'hacknerd', sans-serif;
 }
 
 header {
-  font-family: 'glitchgoblin', sans-serif;
-  padding: 2% 0 2%;
+  padding: 1%;
+  margin: 0 1% 0 1%;
+}
+
+header a {
+  text-decoration: none;
+  color: #20c20e;
+}
+
+header a:hover {
+  color: #555555;
 }
 
 header h1 {
@@ -27,7 +48,10 @@ header h1 {
 
 nav {
   text-align: center;
-  padding: 0 0 2%;
+  padding: 1%;
+  margin: 0 1% 1% 1%;
+  border: 2px solid #20c20e;
+  border-radius: 25px;
 }
 
 nav ul {
@@ -36,7 +60,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  font-size: 2em;
+  font-size: 3em;
   padding: 0 2%;
 }
 
@@ -51,9 +75,55 @@ nav ul li a:hover {
 
 main {
   font-family: 'glitchgoblin', sans-serif;
+  display: grid;
+  grid-template-columns: 750px 750px;
+  grid-template-rows: 375px 375px;
+}
+
+main div {
+  text-align: center;
+  padding: 1%;
+  margin: 2% 2% 2% 2%;
+  border: 2px solid #20c20e;
+  border-radius: 25px;
 }
 
 main h2 {
   color: #20c20e;
   text-align: center;
+  font-size: 2em;
 }
+
+#intro {
+  grid-column: 1 / 1;
+  grid-row: span 2;
+}
+
+footer {
+  text-align: center;
+  padding: 1%;
+  margin: 1% 1% 1% 1%;
+  border: 2px solid #20c20e;
+  border-radius: 25px;
+  font-family: 'hacknerd', sans-serif;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 3em;
+  padding: 0 2%;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #20c20e;
+}
+
+
+footer ul li a:hover {
+  color: #555555
+} 
