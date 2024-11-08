@@ -40,6 +40,15 @@ nav ul li {
   padding: 0 2%;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: #20c20e;
+}
+
+nav ul li a:hover {
+  color: #555555
+}
+
 main {
   font-family: 'glitchgoblin', sans-serif;
 }
