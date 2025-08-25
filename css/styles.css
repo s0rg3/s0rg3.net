@@ -5,25 +5,30 @@
 }
 
 @font-face {
-  font-family: 'glitchgoblin';
+  font-family: 'digital_glitch';
   src: url(fonts/DigitalGlitchRegular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'hacknerd';
+  font-family: 'ibm_vga';
+  src: url(fonts/ibm_vga_8x16.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'hack_nerd';
   src: url(fonts/HackNerdFont-Regular.ttf) format('truetype')
 }
 
 body {
   background-color: #000;
-  color: #20c20e;
-  font-family: 'glitchgoblin', sans-serif;
+  color: #00FF00;
+  font-family: 'digital_glitch', sans-serif;
   max-width: 1500px;
   margin: auto;
 }
 
 p {
-  font-family: 'hacknerd', sans-serif;
+  font-family: 'ibm_vga', sans-serif;
 }
 
 header {
@@ -33,7 +38,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: #20c20e;
+  color: #00FF00;
 }
 
 header a:hover {
@@ -41,7 +46,7 @@ header a:hover {
 }
 
 header h1 {
-  color: #20c20e;
+  color: #00FF00;
   text-align: center;
   font-size: 1.5em;
 }
@@ -50,7 +55,7 @@ nav {
   text-align: center;
   padding: 1%;
   margin: 1% 2% 1% 2%;
-  border: 2px solid #20c20e;
+  border: 2px solid #00FF00;
 }
 
 nav ul {
@@ -65,7 +70,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #20c20e;
+  color: #00FF00;
 }
 
 nav ul li a:hover {
@@ -73,7 +78,7 @@ nav ul li a:hover {
 }
 
 main {
-  font-family: 'glitchgoblin', sans-serif;
+  font-family: 'digital_glitch', sans-serif;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
@@ -85,18 +90,18 @@ main div {
   text-align: center;
   padding: 1%;
   margin: 2% 0% 2% 0%;
-  border: 2px solid #20c20e;
+  border: 2px solid #00FF00;
 }
 
 main h2 {
-  color: #20c20e;
+  color: #00FF00;
   text-align: center;
   font-size: 0.8em;
   padding: 5px 0 5px 0;
 }
 
 main h3 {
-  color: #20c20e;
+  color: #00FF00;
   text-align: center;
   font-size: 0.6em;
   padding: 5px 0 5px 0;
@@ -107,7 +112,7 @@ main p {
 }
 
 main a {
-  color: #20c20e;
+  color: #00FF00;
 }
 
 main a:hover {
@@ -150,16 +155,16 @@ main a:hover {
 }
 
 #errorcode {
-  color: #20c20e;
-  font-family: 'glitchgoblin', sans-serif;
+  color: #00FF00;
+  font-family: 'digital_glitch', sans-serif;
   text-align: center;
   font-size: 2em;
   padding: 5px 0 5px 0;
 }
 
 #errortext {
-  color: #20c20e;
-  font-family: 'hacknerd', sans-serif;
+  color: #00FF00;
+  font-family: 'ibm_vga', sans-serif;
   padding: 5px 5px 5px 5px;
   font-size: 1em;
   text-align: center;
@@ -169,8 +174,8 @@ footer {
   text-align: center;
   padding: 1%;
   margin: 2% 2% 4% 2%;
-  border: 2px solid #20c20e;
-  font-family: 'hacknerd', sans-serif;
+  border: 2px solid #00FF00;
+  font-family: 'ibm_vga', sans-serif;
 }
 
 footer p {
@@ -182,6 +187,7 @@ footer ul {
 }
 
 footer ul li {
+  font-family: 'hack_nerd', sans-serif;
   display: inline-block;
   font-size: 2em;
   padding: 0 5%;
@@ -189,7 +195,7 @@ footer ul li {
 
 footer ul li a {
   text-decoration: none;
-  color: #20c20e;
+  color: #00FF00;
 }
 
 footer ul li a:hover {
@@ -200,7 +206,7 @@ footer ul li a:hover {
 @media only screen and (min-width: 1200px) {
 
   header h1 {
-    color: #20c20e;
+    color: #00FF00;
     text-align: center;
     font-size: 2.4em;
   }
@@ -217,14 +223,14 @@ footer ul li a:hover {
   }
 
   main h2 {
-    color: #20c20e;
+    color: #00FF00;
     text-align: center;
     font-size: 1.5em;
     padding: 5px 0 5px 0;
   }
   
   main h3 {
-    color: #20c20e;
+    color: #00FF00;
     text-align: center;
     font-size: 1em;
     padding: 5px 0 5px 0;
