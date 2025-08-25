@@ -28,7 +28,7 @@ p {
 
 header {
   padding: 1%;
-  margin: 0% 2% 0% 2%;
+  margin: 2% 2% 0% 2%;
 }
 
 header a {
@@ -168,7 +168,7 @@ main a:hover {
 footer {
   text-align: center;
   padding: 1%;
-  margin: 2% 2% 2% 2%;
+  margin: 2% 2% 4% 2%;
   border: 2px solid #20c20e;
   font-family: 'hacknerd', sans-serif;
 }
