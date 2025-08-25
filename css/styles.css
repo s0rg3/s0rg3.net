@@ -28,7 +28,7 @@ p {
 
 header {
   padding: 1%;
-  margin: 2% 2% 0% 2%;
+  margin: 4% 2% 0% 2%;
 }
 
 header a {
@@ -198,16 +198,17 @@ footer ul li a:hover {
 
 /* Tablet Viewport */
 @media only screen and (min-width: 1200px) {
-  nav ul li {
-    display: inline-block;
-    font-size: 2em;
-    padding: 0% 01% 0% 1%;
-  }
 
   header h1 {
     color: #20c20e;
     text-align: center;
     font-size: 2.4em;
+  }
+
+  nav ul li {
+    display: inline-block;
+    font-size: 2em;
+    padding: 0% 01% 0% 1%;
   }
   
   main {
