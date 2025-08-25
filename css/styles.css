@@ -28,7 +28,7 @@ p {
 
 header {
   padding: 1%;
-  margin: 0% 1% 0% 1%;
+  margin: 0% 2% 0% 2%;
 }
 
 header a {
@@ -49,7 +49,7 @@ header h1 {
 nav {
   text-align: center;
   padding: 1%;
-  margin: 1% 1% 1% 1%;
+  margin: 1% 2% 1% 2%;
   border: 2px solid #20c20e;
 }
 
@@ -77,12 +77,14 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
+  column-gap: 2%;
+  margin: 0% 2% 0% 2%;
 }
 
 main div {
   text-align: center;
   padding: 1%;
-  margin: 2% 2% 2% 2%;
+  margin: 2% 0% 2% 0%;
   border: 2px solid #20c20e;
 }
 
@@ -158,7 +160,7 @@ main a:hover {
 footer {
   text-align: center;
   padding: 1%;
-  margin: 2% 1% 2% 1%;
+  margin: 2% 2% 2% 2%;
   border: 2px solid #20c20e;
   font-family: 'hacknerd', sans-serif;
 }
@@ -191,7 +193,7 @@ footer ul li a:hover {
   nav ul li {
     display: inline-block;
     font-size: 3em;
-    padding: 0 2%;
+    padding: 0% 01% 0% 1%;
   }
   
   main {
