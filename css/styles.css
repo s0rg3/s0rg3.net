@@ -183,7 +183,7 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  font-size: 3em;
+  font-size: 2em;
   padding: 0 5%;
 }
 
@@ -251,6 +251,7 @@ footer ul li a:hover {
 
   footer ul li {
     padding: 0 4%;
+    font-size: 3em;
   }
 
 } 
