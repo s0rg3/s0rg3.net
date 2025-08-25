@@ -3,175 +3,8 @@
   <head>
     <title>sorge.dev</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        background-color: #000;
-      }
-
-      @font-face {
-        font-family: 'glitchgoblin';
-        src: url(css/fonts/GlitchGoblin.ttf) format('truetype');
-      }
-
-      @font-face {
-        font-family: 'hacknerd';
-        src: url(css/fonts/HackNerdFont-Regular.ttf) format('truetype')
-      }
-
-      body {
-        background-color: #000;
-        color: #20c20e;
-        font-family: 'glitchgoblin', sans-serif;
-        max-width: 1500px;
-        margin: auto;
-      }
-
-      p {
-        font-family: 'hacknerd', sans-serif;
-      }
-
-      header {
-        padding: 1%;
-        margin: 0% 1% 0% 1%;
-      }
-
-      header a {
-        text-decoration: none;
-        color: #20c20e;
-      }
-
-      header a:hover {
-        color: #555555;
-      }
-
-      header h1 {
-        color: #20c20e;
-        text-align: center;
-        font-size: 5em;
-      }
-
-      nav {
-        text-align: center;
-        padding: 1%;
-        margin: 0 1% 10% 1%;
-        border: 2px solid #20c20e;
-        border-radius: 25px;
-      }
-
-      nav ul {
-        list-style-type: none;
-      }
-
-      nav ul li {
-        display: block;
-        font-size: 3em;
-        padding: 0 2%;
-      }
-
-      nav ul li a {
-        text-decoration: none;
-        color: #20c20e;
-      }
-
-      nav ul li a:hover {
-        color: #555555
-      }
-
-      main {
-        font-family: 'glitchgoblin', sans-serif;
-      }
-
-      main div {
-        text-align: center;
-        padding: 1%;
-        margin: 2% 2% 2% 2%;
-        border: 2px solid #20c20e;
-        border-radius: 25px;
-      }
-
-      main h2 {
-        color: #20c20e;
-        text-align: center;
-        font-size: 10em;
-        padding: 5px 0 5px 0;
-      }
-
-      main p {
-        font-family: 'hacknerd', sans-serif;
-        padding: 5px 5px 5px 5px;
-        font-size: 3em;
-        text-align: center;
-      }
-
-      footer {
-        text-align: center;
-        padding: 1%;
-        margin: 10% 1% 1% 1%;
-        border: 2px solid #20c20e;
-        border-radius: 25px;
-        font-family: 'hacknerd', sans-serif;
-      }
-
-      footer p {
-        padding: 5px 0 5px 0;
-      }
-
-      footer ul {
-        list-style-type: none;
-      }
-
-      footer ul li {
-        display: inline-block;
-        font-size: 3em;
-        padding: 0 5%;
-      }
-
-      footer ul li a {
-        text-decoration: none;
-        color: #20c20e;
-      }
-
-      footer ul li a:hover {
-        color: #555555
-      } 
-
-      /* Tablet Viewport */
-      @media screen and (min-width: 630px) {
-        nav ul li {
-          display: inline-block;
-          font-size: 3em;
-          padding: 0 2%;
-        }
-        
-        main {
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: auto auto;
-        }
-
-        #intro {
-          grid-column: 1;
-          grid-row: 1 / 3;
-        }
-
-        #current_proj {
-          grid-column: 2;
-          grid-row: 1;
-        }
-
-        #latest_blog {
-          grid-column: 2;
-          grid-row: 2;
-        }
-
-        footer ul li {
-          padding: 0 4%;
-        }
-
-      }
-    </style>
   </head>
   <body id="container">
     <header>
@@ -185,8 +18,10 @@
       </ul>
     </nav>  
     <main>
-      <h2 id="errorcode">404</h2>
-      <p>the page you are looking for does not exist</p>
+      <div id="error-div">
+        <h2 id="errorcode">404</h2>
+        <p id="errortext">the page you are looking for does not exist</p>
+      </div>
     </main>
     <footer>
       <ul>
