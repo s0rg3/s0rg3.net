@@ -96,21 +96,21 @@ main div {
 main h1 {
   color: #00FF00;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 0.8em;
   padding: 5px 0 5px 0;
 }
 
 main h2 {
   color: #00FF00;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.6em;
   padding: 5px 0 5px 0;
 }
 
 main h3 {
   color: #00FF00;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.4em;
   padding: 5px 0 5px 0;
 }
 
@@ -141,40 +141,53 @@ main a:hover {
   padding: 5px;
 }
 
-#intro {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-#current_proj {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-#latest_blog {
-  grid-column: 1;
-  grid-row: 3;
-}
-
-.project_doc {
+/* div used for main project/CV box */
+.center {
   grid-column: 1/4;
 }
 
-.project_doc p {
+.center p {
   text-align: left;
+  padding: 0% 0% 0% 2%;
 }
 
-.project_doc h1 {
+.cener h1 {
   text-align: center;
   padding: 0% 0% 1% 0%;
 }
 
-.project_doc h2 {
+.center h2 {
+  text-align: left;
+  padding: 1% 0% 0% 0%;
+}
+
+.center h3 {
+  font-family: 'ibm_vga';
+  font-size: 1em;
+  text-align: left;
+  padding: 1% 0% 0% 0%;
+}
+
+.center h4 {
+  font-family: 'ibm_vga';
+  font-size: 1em;
+  text-align: left;
+  padding: 0% 0% 1% 0%;
+}
+
+.center ul {
+  list-style-type: none;
+  padding: 0% 0% 0% 4%;
+}
+
+.center ul li {
+  font-family: 'ibm_vga';
   text-align: left;
 }
 
+/* used for 404 error code */
 #error-div {
-  grid-column: 1;
+  grid-column: 1/4;
   grid-row: 1;
 }
 
@@ -227,7 +240,7 @@ footer ul li a:hover {
 } 
 
 /* Tablet Viewport */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 820px) {
 
   header h1 {
     color: #00FF00;
@@ -237,7 +250,7 @@ footer ul li a:hover {
 
   nav ul li {
     display: inline-block;
-    font-size: 2em;
+    font-size: 1.4em;
     padding: 0% 01% 0% 1%;
   }
   
@@ -270,11 +283,19 @@ footer ul li a:hover {
   main p {
     font-size: 1em;
   }
+
+  #intro {
+    grid-column: 1/3;
+  }
+
+  footer ul li {
+    font-size: 2.4em;
+  }
 }
 
 
 /* Desktop Viewport */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
 
   header h1 {
     color: #00FF00;
@@ -284,7 +305,7 @@ footer ul li a:hover {
 
   nav ul li {
     display: inline-block;
-    font-size: 1.6em;
+    font-size: 1.8em;
     padding: 0% 01% 0% 1%;
   }
   
@@ -335,6 +356,34 @@ footer ul li a:hover {
 
   #error-div {
     grid-column: 1/3;
+  }
+
+  .center p {
+    font-size: 1.4em;
+  }
+
+  .center h1 {
+    font-size: 2em;
+  }
+
+  .center h2 {
+    font-size: 1.8em;
+  }
+
+  .center h3 {
+    font-family: 'ibm_vga';
+    font-size: 1.6em;
+    text-align: left;
+  }
+  
+  .center h4 {
+    font-family: 'ibm_vga';
+    font-size: 1.4em;
+    text-align: left;
+  }
+
+  .center ul li {
+    font-size: 1.4em;
   }
 
   footer ul li {
